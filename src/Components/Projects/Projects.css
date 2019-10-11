@@ -1,0 +1,19 @@
+.projects {
+    text-align: center;
+}
+
+.projectHeader {
+    margin-top: 5%;
+}
+
+.projectTxt {
+    margin: 5%;
+}
+
+@media (max-width: 768px) {
+    .projects {
+      text-align: center;
+      margin-top: 60px;
+    }
+}
+

@@ -1,0 +1,166 @@
+.image {
+    height: 180px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 160px;
+    flex-direction: column;
+}
+
+.header {
+    background-image: url('../../Images/koreamerica.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 450px 0 100px 0;
+    text-align: center;
+}
+
+.title {
+    margin-top: 8%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.pTxt {
+    text-align: center;
+    margin: 100px;
+    margin-top: 10px;
+    font-size: 1.125rem;
+}
+
+.email {
+    text-align: center;
+    font-size: 25px;
+}
+
+.email a {
+    color: #5993E5;
+    text-decoration: none;
+}
+
+.email a:hover {
+    color: orangered;
+}
+
+.emailTxt {
+    text-shadow: 2px 2px 8px #5993E5;
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 40px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    margin-top: 275px;
+    margin-bottom: 275px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.skill-icons {
+    font-size: .5rem;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.skill-icons ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 5px;
+    display: flex;
+    margin: auto;
+}
+
+.skill-icons li {
+    vertical-align: top;
+    display: inline;
+    flex-direction: column;
+}
+
+.fab.skill {
+    padding: 20px;
+    font-size: 50px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 2px;
+}
+
+.fas.skill {
+    padding: 20px;
+    font-size: 50px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 2px;
+}
+
+.fa-html5 {
+    color: red;
+}
+
+.fa-css3 {
+    color: blue;
+}
+
+.fa-js {
+    color: gold;
+}
+
+.fa-react {
+    color: skyblue;
+}
+
+.fa-node-js {
+    color: orangered;
+}
+
+.fa-database {
+    color: orange;
+}
+
+.fa-server {
+    color: limegreen;
+}
+
+.contact {
+    text-align: center;
+}
+
+
+.myButton {
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:23px;
+	padding:25px 58px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+	background-color:#eb675e;
+}
+.myButton:active,
+.myButton:focus {
+	position:relative;
+    top:1px;
+    outline: none;
+}
+
+.myButton a {
+    color: #fff;
+    text-decoration: none;
+}
+    
