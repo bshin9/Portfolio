@@ -18,7 +18,7 @@ const about = () => {
         linear one. I have not been coding for very long, but I believe that my
         willingness to work harder than others will prove to be my forte.
       </p>
-      <hr></hr>
+      <hr />
       <h2 className="title">Skills</h2>
       <div className="skill-icons">
         <ul>
@@ -38,6 +38,9 @@ const about = () => {
             <i className="fab skill fa-node-js"></i>
           </li>
           <li>
+            <i className="fab skill fa-npm"></i>
+          </li>
+          <li>
             <i className="fas skill fa-database"></i>
           </li>
           <li>
@@ -45,7 +48,7 @@ const about = () => {
           </li>
         </ul>
       </div>
-      <hr></hr>
+      <hr />
       <div className="contact">
         <h2 className="title">Contact Me</h2>
         <p className="pTxt">
