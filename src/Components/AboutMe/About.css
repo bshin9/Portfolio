@@ -157,4 +157,19 @@ hr {
     color: #fff;
     text-decoration: none;
 }
-    
+
+@media screen and (max-width: 540px) {
+    .header {
+      display: block;
+      text-align: center;
+      margin: auto;
+    }
+  }
+
+@media screen and (max-width: 340px) {
+    .skill-icons {
+      display: block;
+      text-align: center;
+      margin: auto;
+    }
+  }

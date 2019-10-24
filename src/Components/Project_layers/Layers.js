@@ -16,7 +16,7 @@ const layers = () => {
           <a
             href="https://github.com/bshin9/Icon_Change"
             target="_blank"
-            rel="noopener noreferrer" 
+            rel="noopener noreferrer" aria-label="status"
           >
             <div className="content-overlay" />
             <img className="content-image" src={icon} alt="icon" />

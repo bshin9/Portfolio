@@ -11,12 +11,12 @@ const footer = () => {
       <div className="social-icons">
         <ul>
           <li>
-            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="linkedin">
               <i className="fab fa-linkedin" />
             </a>
           </li>
           <li>
-            <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.github.com" target="_blank" rel="noopener noreferrer" aria-label="github">
               <i className="fab fa-github" />
             </a>
           </li>

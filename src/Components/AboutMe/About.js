@@ -55,7 +55,7 @@ const about = () => {
           Feel free to contact me by my email. I've also provided social media
           links at the bottom if you would like to reach out to me there.
         </p>
-        <a href="mailto:bshin9@yahoo.com">
+        <a href="mailto:bshin9@yahoo.com" aria-label="email">
           <button className="myButton">bshin9@yahoo.com</button>
         </a>
       </div>

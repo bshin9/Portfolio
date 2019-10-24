@@ -11,6 +11,10 @@
   flex: 1;
 }
 
+.nav-link a {
+  color: #000;
+}
+
 .toolbar__navigation {
   display: flex;
   height: 100%;
