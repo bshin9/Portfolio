@@ -9,7 +9,7 @@ const projects = () => {
       <h1 className="projectHeader">List of Projects & Body of Work</h1>
       <p className="projectTxt">
         These are some of the projects I've been working on throughout my time
-        at RoadtoHire and it's been a surreal experience being able to learn new
+        at Road to Hire and it's been a surreal experience being able to learn new
         languages and then implementing them in a real way.
       </p>
       <Layers /> 
