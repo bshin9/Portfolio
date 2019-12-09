@@ -6,7 +6,7 @@ import nodejs from "../../Images/nodejs.jpeg";
 import sql from "../../Images/mysql.jpg";
 import order from "../../Images/order.jpg";
 import unit from "../../Images/unittest.jpg";
-import ecommerce from "../../Images/ecommerce.png";
+import ecommerce from "../../Images/properAuth.png";
 
 const layers = () => {
   return (
@@ -16,7 +16,8 @@ const layers = () => {
           <a
             href="https://github.com/bshin9/Icon_Change"
             target="_blank"
-            rel="noopener noreferrer" aria-label="status"
+            rel="noopener noreferrer"
+            aria-label="status"
           >
             <div className="content-overlay" />
             <img className="content-image" src={icon} alt="icon" />
@@ -74,7 +75,7 @@ const layers = () => {
           <a
             href="https://github.com/bshin9/SQL_Challenges"
             target="_blank"
-            rel="noopener noreferrer" 
+            rel="noopener noreferrer"
           >
             <div className="content-overlay" />
             <img className="content-image" src={sql} alt="sql" />
@@ -93,7 +94,7 @@ const layers = () => {
           <a
             href="https://github.com/bshin9/NodeJS"
             target="_blank"
-            rel="noopener noreferrer" 
+            rel="noopener noreferrer"
           >
             <div className="content-overlay" />
             <img className="content-image" src={nodejs} alt="node" />
@@ -113,7 +114,7 @@ const layers = () => {
           <a
             href="https://github.com/bshin9/Sorting_array"
             target="_blank"
-            rel="noopener noreferrer" 
+            rel="noopener noreferrer"
           >
             <div className="content-overlay" />
             <img className="content-image" src={order} alt="sort" />
@@ -131,19 +132,20 @@ const layers = () => {
       <div className="container">
         <div className="content">
           <a
-            href="https://github.com/bshin9/React_Ecom"
+            href="https://github.com/bshin9/EcomPWA"
             target="_blank"
-            rel="noopener noreferrer" 
+            rel="noopener noreferrer"
           >
             <div className="content-overlay" />
             <img className="content-image" src={ecommerce} alt="ecommerce" />
             <div className="content-details fadeIn-bottom fadeIn-left">
               <h3>React Ecommerce App</h3>
               <p>
-                Using React, CSS, NodeJS, and mySQL I have created a ecommerce
-                website. I've created three pages: home, products, and contacts.
-                I have a comment section below my contacts and I've been able to
-                get my delete functionality working.
+                Using React, CSS, NodeJS, and MongoDB I have created a ecommerce
+                website. I've created five pages: home, products, contacts, sign
+                in, and logout. As well as an additional profile page after
+                you've logged in. I'm using a MongoDB as my database structure
+                and getting my products and contacts through axios.
               </p>
             </div>
           </a>
