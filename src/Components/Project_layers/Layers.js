@@ -151,6 +151,24 @@ const layers = () => {
           </a>
         </div>
       </div>
+      <div className="container">
+        <div className="content">
+          <a
+            href="https://github.com/bshin9/html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="content-overlay" />
+            <img className="content-image" src={ecommerce} alt="ecommerce" />
+            <div className="content-details fadeIn-bottom fadeIn-left">
+              <h3>Semantic HTML</h3>
+              <p>
+                Showing what semantic html looks like.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
