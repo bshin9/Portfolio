@@ -7,6 +7,7 @@ import sql from "../../Images/mysql.jpg";
 import order from "../../Images/order.jpg";
 import unit from "../../Images/unittest.jpg";
 import ecommerce from "../../Images/properAuth.png";
+import semantic from "../../Images/semantic.jpg";
 
 const layers = () => {
   return (
@@ -159,7 +160,7 @@ const layers = () => {
             rel="noopener noreferrer"
           >
             <div className="content-overlay" />
-            <img className="content-image" src={ecommerce} alt="ecommerce" />
+            <img className="content-image" src={semantic} alt="ecommerce" />
             <div className="content-details fadeIn-bottom fadeIn-left">
               <h3>Semantic HTML</h3>
               <p>
