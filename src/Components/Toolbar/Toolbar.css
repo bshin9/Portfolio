@@ -45,13 +45,13 @@
 }
 
 .toolbar_navigation-items a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
 .toolbar_navigation-items a:hover,
 .toolbar_navigation-items a:active {
-  color: #b32134;
+  color: #000;
 }
 
 @media (max-width: 768px) {
